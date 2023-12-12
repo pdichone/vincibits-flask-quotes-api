@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS quotes;
+CREATE TABLE quotes (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    author TEXT NOT NULL,
+    quote TEXT NOT NULL
+);
